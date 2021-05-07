@@ -50,13 +50,11 @@ for (var i = 0; i < studenti.length; i++){
     var datiStudente = studenti[i];
 
     console.log(datiStudente.nome, datiStudente.cognome);
-    
+
 }
 
 
 console.log("Nuovo Studente Aggiunto");
-
-
 
 var insertNome = prompt("Inserisci il nome del nuovo studente");
 var insertCognome = prompt("Inserisci il cognome del nuovo studente");
